@@ -1,0 +1,74 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Weather Card */
+.weather-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.weather-card:hover {
+    transform: scale(1.05);
+}
+
+/* Heading */
+h1 {
+    font-size: 30px;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+}
+
+/* Weather Info */
+#location, #temp, #condition {
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+#location {
+    font-weight: bold;
+}
+
+#temp {
+    font-size: 22px;
+    color: #FF9800;
+}
+
+#condition {
+    font-style: italic;
+}
+
+/* Button */
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
